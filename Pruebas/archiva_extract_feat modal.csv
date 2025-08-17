@@ -1,0 +1,8 @@
+create (should_overwrite_the_exiting:issue {name:'should overwrite the exiting'}) create (Cache:class {name:'Cache', favoritecolor: 'green'}) create (should_overwrite_the_exiting)-[:Bug]->(Cache)
+create (will_remove_ArtifactRepositoryFactory:issue {name:'will remove ArtifactRepositoryFactory'}) create (will_remove_ArtifactRepositoryFactory)-[:Bug]->(Cache)
+create (can_provide_alternative_implementations:issue {name:'can provide alternative implementations'}) create (graph:class {name:'graph', favoritecolor: 'green'}) create (can_provide_alternative_implementations)-[:Bug]->(graph)
+create (can_provide_a_graphic:issue {name:'can provide a graphic'}) create (can_provide_a_graphic)-[:Bug]->(graph)
+create (can_list_dependencies:issue {name:'can list dependencies'}) create (can_list_dependencies)-[:Bug]->(graph)
+create (should_reject_the_artifact:issue {name:'should reject the artifact'}) create (should_reject_the_artifact)-[:Bug]->(Cache)
+create (must_contact_the_administrator:issue {name:'must contact the administrator'}) create (Task:class {name:'Task', favoritecolor: 'green'}) create (must_contact_the_administrator)-[:Bug]->(Task)
+create (can_deploy_the_file:issue {name:'can deploy the file'}) create (can_deploy_the_file)-[:Bug]->(Cache)
