@@ -12,7 +12,7 @@ Execution:
 
 Run the projects in this order:
 
-1. Clasificacion/1_Clasificacion_binaria_2025.ipynb: Classifies the issue reports between containing_feature and non-containing_feature
-2. Clasificacion/2_Clasificacion_bug_improv_new_feat_2025_.ipynb: Classifies the issue reports between Bug/Improvement/New Feature
-3. Prediccion/3_Prediccion_componentes_2025.ipynb: Assign a software component to a issue report
-4. Extraccion/4_Extraccion_caracteristicas_texto_2025.ipynb: Extract main features of an issue report
+1. Classification/1_Classification_binary_2025.ipynb: Classifies the issue reports between containing_feature and non-containing_feature
+2. Classificacion/2_Classification_bug_improv_new_feat_2025_.ipynb: Classifies the issue reports between Bug/Improvement/New Feature
+3. Prediction/3_Prediction_components_2025.ipynb: Assign a software component to a issue report
+4. Extraction/4_Extraction_text_feature_2025.ipynb: Extract main features of an issue report
