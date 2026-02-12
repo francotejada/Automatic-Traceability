@@ -8,11 +8,6 @@ Directory structure:
 └── 3_Prediction_components_2025.ipynb
 
 
-================================================
-FILE: Prediction/3_Prediction_components_2025.ipynb
-================================================
-# Jupyter notebook converted to Python script.
-
 """
 <a href="https://colab.research.google.com/github/francotejada/Automatic-Traceability/blob/main/Prediction/3_Prediction_components_2025.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 """
