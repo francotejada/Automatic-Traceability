@@ -8,11 +8,6 @@ Directory structure:
 └── 2_Classification_bug_improv_new_feat_2025_.ipynb
 
 
-================================================
-FILE: Classification/2_Classification_bug_improv_new_feat_2025_.ipynb
-================================================
-# Jupyter notebook converted to Python script.
-
 """
 <a href="https://colab.research.google.com/github/francotejada/Automatic-Traceability/blob/main/Classification/2_Classification_bug_improv_new_feat_2025_.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 """
