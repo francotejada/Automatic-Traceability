@@ -12,61 +12,6 @@ Directory structure:
 """
 
 !pip install pyvis
-# Output:
-#   Collecting pyvis
-
-#     Downloading pyvis-0.3.2-py3-none-any.whl.metadata (1.7 kB)
-
-#   Requirement already satisfied: ipython>=5.3.0 in /usr/local/lib/python3.12/dist-packages (from pyvis) (7.34.0)
-
-#   Requirement already satisfied: jinja2>=2.9.6 in /usr/local/lib/python3.12/dist-packages (from pyvis) (3.1.6)
-
-#   Requirement already satisfied: jsonpickle>=1.4.1 in /usr/local/lib/python3.12/dist-packages (from pyvis) (4.1.1)
-
-#   Requirement already satisfied: networkx>=1.11 in /usr/local/lib/python3.12/dist-packages (from pyvis) (3.6.1)
-
-#   Requirement already satisfied: setuptools>=18.5 in /usr/local/lib/python3.12/dist-packages (from ipython>=5.3.0->pyvis) (75.2.0)
-
-#   Collecting jedi>=0.16 (from ipython>=5.3.0->pyvis)
-
-#     Downloading jedi-0.19.2-py2.py3-none-any.whl.metadata (22 kB)
-
-#   Requirement already satisfied: decorator in /usr/local/lib/python3.12/dist-packages (from ipython>=5.3.0->pyvis) (4.4.2)
-
-#   Requirement already satisfied: pickleshare in /usr/local/lib/python3.12/dist-packages (from ipython>=5.3.0->pyvis) (0.7.5)
-
-#   Requirement already satisfied: traitlets>=4.2 in /usr/local/lib/python3.12/dist-packages (from ipython>=5.3.0->pyvis) (5.7.1)
-
-#   Requirement already satisfied: prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0 in /usr/local/lib/python3.12/dist-packages (from ipython>=5.3.0->pyvis) (3.0.52)
-
-#   Requirement already satisfied: pygments in /usr/local/lib/python3.12/dist-packages (from ipython>=5.3.0->pyvis) (2.19.2)
-
-#   Requirement already satisfied: backcall in /usr/local/lib/python3.12/dist-packages (from ipython>=5.3.0->pyvis) (0.2.0)
-
-#   Requirement already satisfied: matplotlib-inline in /usr/local/lib/python3.12/dist-packages (from ipython>=5.3.0->pyvis) (0.2.1)
-
-#   Requirement already satisfied: pexpect>4.3 in /usr/local/lib/python3.12/dist-packages (from ipython>=5.3.0->pyvis) (4.9.0)
-
-#   Requirement already satisfied: MarkupSafe>=2.0 in /usr/local/lib/python3.12/dist-packages (from jinja2>=2.9.6->pyvis) (3.0.3)
-
-#   Requirement already satisfied: parso<0.9.0,>=0.8.4 in /usr/local/lib/python3.12/dist-packages (from jedi>=0.16->ipython>=5.3.0->pyvis) (0.8.5)
-
-#   Requirement already satisfied: ptyprocess>=0.5 in /usr/local/lib/python3.12/dist-packages (from pexpect>4.3->ipython>=5.3.0->pyvis) (0.7.0)
-
-#   Requirement already satisfied: wcwidth in /usr/local/lib/python3.12/dist-packages (from prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0->ipython>=5.3.0->pyvis) (0.5.3)
-
-#   Downloading pyvis-0.3.2-py3-none-any.whl (756 kB)
-
-#   [2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m756.0/756.0 kB[0m [31m12.9 MB/s[0m eta [36m0:00:00[0m
-
-#   [?25hDownloading jedi-0.19.2-py2.py3-none-any.whl (1.6 MB)
-
-#   [2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.6/1.6 MB[0m [31m55.3 MB/s[0m eta [36m0:00:00[0m
-
-#   [?25hInstalling collected packages: jedi, pyvis
-
-#   Successfully installed jedi-0.19.2 pyvis-0.3.2
-
 
 from pyvis.network import Network
 from IPython.display import HTML
