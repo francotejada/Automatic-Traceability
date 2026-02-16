@@ -32,9 +32,9 @@ In this work, we propose an automated approach for recovering and visualizing th
 
 We show the feasibility of the proposed approach through the analysis of four projects described in the Dataset. Overall, our approach produced reasonable results, with accuracy greater than 93\%, outperforming the previous state-of-the-art approaches. 
 
-<img src="images/pipe_drawio.pdf" alt="Pipeline" >
+<img src="blob/main/images/pipe_drawio.pdf" alt="Pipeline" >
 
-<img src="images/workflow3.eps" alt="Workflow" >
+<img src="blob/main/images/workflow3.eps" alt="Workflow" >
 
 Our work allows researchers, as well as practitioners, to evolve components in a reasonable time and cost effective.
 
