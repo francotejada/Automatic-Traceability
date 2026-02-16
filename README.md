@@ -27,14 +27,13 @@ effectively.
 
 To overcome the challenge, several approaches use NLP techniques to address aspects related to the automatic classification of issue reports, but not sufficient to address aspects related to the traceability between a relevant component(s) and its reported issues.
 
-In this work, we propose an automated approach for recovering and visualizing the traceability between issue reports and the most relevant components for them, which combines Natural Language Processing, BERT and Graph Visualization techniques for:
-1) preprocessing issues by removing irrelevant information and tokenize them; 2) transform the tokens of issues into inputs for a BERT-based classifier then classifying issues into feature-containing and non-feature-containing, then sub-classifying non-feature containing issues into bugs and improvements using a BERT-based domain-specific language model; 3) extracting software features contained within issues using POS-tagging-based patterns and dependency parsing rules;  4) linking issues to the relevant predicted components (e.g. modules, packages or classes); and 5) generating a graph-based traceability visualization between a relevant component(s) and their reported issues. 
+In this work, we propose an automated approach for recovering and visualizing the traceability between issue reports and the most relevant components for them, which combines Natural Language Processing, BERT and Graph Visualization techniques for: 1) preprocessing issues by removing irrelevant information and tokenize them; 2) transform the tokens of issues into inputs for a BERT-based classifier then classifying issues into feature-containing and non-feature-containing, then sub-classifying non-feature containing issues into bugs and improvements using a BERT-based domain-specific language model; 3) extracting software features contained within issues using POS-tagging-based patterns and dependency parsing rules;  4) linking issues to the relevant predicted components (e.g. modules, packages or classes); and 5) generating a graph-based traceability visualization between a relevant component(s) and their reported issues. 
 
 We show the feasibility of the proposed approach through the analysis of four projects described in the Dataset. Overall, our approach produced reasonable results, with accuracy greater than 93\%, outperforming the previous state-of-the-art approaches. 
 
-<img src="blob/main/images/pipe_drawio.pdf" alt="Pipeline" >
+<img src="https://github.com/francotejada/Automatic-Traceability/blob/main/Images/pipe_drawio.pdf" alt="Pipeline" >
 
-<img src="blob/main/images/workflow3.eps" alt="Workflow" >
+<img src="https://github.com/francotejada/Automatic-Traceability/blob/main/Images/pipe_drawio.pdf" alt="Workflow" >
 
 Our work allows researchers, as well as practitioners, to evolve components in a reasonable time and cost effective.
 
